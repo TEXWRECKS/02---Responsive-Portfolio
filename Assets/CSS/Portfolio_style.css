@@ -6,7 +6,8 @@ nav {
     display: block;
   }
 
-html {
+  /* LinkedIn Button */
+  html {
   margin: 40px auto;
   text-align: center;
   }
@@ -25,6 +26,7 @@ html {
     background: #084461;
     color: #fff;
   }
+  /* End of LinkedIn Button */
 
 body {
     /* Typography */
@@ -34,6 +36,10 @@ body {
     
       /* Visual */
       background-color: #cc5500;
+  }
+
+  #Jumbotron {
+    color: #fff;
   }
 
 div {
@@ -84,29 +90,7 @@ a:-webkit-any-link {
       /* Positioning */
       margin-top: 40px auto;
     }
-    
-    #Carousel,
-    #About_Me {
-      /* Box-model */
-      width: 100%;
-    }
-    
-    #Carousel {   
-      block-size: auto;
-      /* Visual */
-      background: #eee;
-      float: left;
-    }
-    
-    #About_Me {
-      block-size: auto;
-      /* Visual */
-      background: #eee;
-      float: right;
-      padding-left: 10px;
-      margin-left: 20px;
-      margin-right: 20px;
-    }
+
   
    
   /*
@@ -116,19 +100,11 @@ a:-webkit-any-link {
   @media screen and (max-width: 768px) {
     /* The body's bg color will be #333 */
     body {
-      background-color: #333;
+      background-color: rgb(65,64,75);
     }
     
       /* The wrapper's width will be 600px */
       .wrapper {
         width: 100%;
-      }
-    
-      #Carousel, #About_Me {
-        height: 500px;
-      }
-    
-      #About_Me {
-        margin-top: 20px;
       }
     }

@@ -61,13 +61,14 @@ body {
   #Carousel {   
     block-size: auto;
     /* Visual */
-    background: #eee;
+    background: rgb(65, 64, 75);
   }
   
   #About_Me {
     block-size: auto;
     /* Visual */
-    background: #eee;
+    background: rgb(65, 64, 75);
+    color: #fff;
     padding: 20px;
   }
 

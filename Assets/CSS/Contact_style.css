@@ -77,9 +77,18 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
     text-align: left;
     background-color: #cc5500;
+}
+
+#contact {
+  color: #cc5500;
+  background: rgb(65, 64, 75);
+}
+
+#container {
+  color: #cc5500;
+  background: rgb(65, 64, 75);
 }
 
 :root {
@@ -127,19 +136,11 @@ html {
   @media screen and (max-width: 768px) {
     /* The body's bg color will be #333 */
     body {
-      background-color: #333;
+      background-color: rgb(65,64,75 );
     }
     
       /* The wrapper's width will be 600px */
       .wrapper {
         width: 100%;
-      }
-    
-      #Carousel, #About_Me {
-        height: 500px;
-      }
-    
-      #About_Me {
-        margin-top: 20px;
       }
     }
