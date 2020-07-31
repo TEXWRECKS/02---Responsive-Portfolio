@@ -86,11 +86,6 @@ body {
   background: rgb(65, 64, 75);
 }
 
-#container {
-  color: #cc5500;
-  background: rgb(65, 64, 75);
-}
-
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
