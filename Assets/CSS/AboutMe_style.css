@@ -6,6 +6,25 @@ nav {
   display: block;
 }
 
+html {
+  margin: 40px auto;
+  text-align: center;
+  }
+  .btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
 
 body {
   /* Typography */
@@ -43,17 +62,13 @@ body {
     block-size: auto;
     /* Visual */
     background: #eee;
-    float: left;
   }
   
   #About_Me {
     block-size: auto;
     /* Visual */
     background: #eee;
-    float: right;
-    padding-left: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px;
   }
 
  
@@ -70,13 +85,5 @@ body {
     /* The wrapper's width will be 600px */
     .wrapper {
       width: 100%;
-    }
-  
-    #Carousel, #About_Me {
-      height: 50%;
-    }
-  
-    #About_Me {
-      margin-top: 20px;
     }
   }
