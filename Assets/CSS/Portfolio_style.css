@@ -1,110 +1,217 @@
 head {
-    padding-top: 56px;
-  }
+  padding-top: 56px;
+}
 
 nav {
-    display: block;
-  }
+  display: block;
+}
 
-  /* LinkedIn Button */
-  html {
-  margin: 40px auto;
-  text-align: center;
-  }
-  .btn-linkedin {
-    background: #0E76A8;
-    border-radius: 0;
-    color: #fff;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #084461;
-  }
-  .btn-linkedin:link, .btn-linkedin:visited {
-    color: #fff;
-  }
-  .btn-linkedin:active, .btn-linkedin:hover {
-    background: #084461;
-    color: #fff;
-  }
-  /* End of LinkedIn Button */
+/* LinkedIn Button */
+html {
+margin: 40px auto;
+text-align: center;
+}
+.btn-linkedin {
+  background: #0E76A8;
+  border-radius: 0;
+  color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #084461;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+  color: #fff;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+  background: #084461;
+  color: #fff;
+}
+/* End of LinkedIn Button */
 
 body {
-    /* Typography */
-      margin-top: 56px;
-      font-size: 18px;
-      line-height: 27px;
-    
-      /* Visual */
-      background-color: #cc5500;
-  }
+  /* Typography */
+    margin-top: 56px;
+    font-size: 18px;
+    line-height: 27px;
+  
+    /* Visual */
+    background-image: url(Code\ 1.jpg);
+    background-size: cover;
+}
 
-  #Jumbotron {
-    color: #fff;
-  }
+#Jumbotron {
+  color: black;
+  text-align: center;
+  border: whitesmoke;
+  text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+  opacity: 0.8;
+}
 
 div {
-    display: block;
+  display: block;
 }
 
 header {
-    display: block;
+  display: block;
 }
 
 h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.lead {
+  font-weight: bold;
+}
+
+#random-recipe-browser {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 80%;
+margin-top: 10px;
+margin-bottom: 5px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#random-recipe-browser:active, #random-recipe-browser:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#random-recipe-GitHub {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 80%;
+margin-top: 5px;
+margin-bottom: 10px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#random-recipe-GitHub:active, #random-recipe-GitHub:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#responsive-portfolio-browser {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 80%;
+margin-top: 10px;
+margin-bottom: 5px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#responsive-portfolio-browser:active, #responsive-portfolio-browser:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#responsive-portfolio-GitHub {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 80%;
+margin-top: 5px;
+margin-bottom: 10px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#responsive-portfolio-GitHub:active, #responsive-portfolio-GitHub:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#day-planner-browser {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 80%;
+margin-top: 10px;
+margin-bottom: 5px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#day-planner-browser:active, #day-planner-browser:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#day-planner-GitHub {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 80%;
+margin-top: 5px;
+margin-bottom: 10px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+#day-planner-GitHub:active, #day-planner-GitHub:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
+.card-img-top {
+height: 200px;
+}
+
+.card-text-2 {
+font-style: italic;
 }
 
 a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
+  color: -webkit-link;
+  cursor: pointer;
 }
 
 
 
-    /*
-      The width of the wrapper will be 1024px
-      at browser widths above 768px
-    */
-   
-  
-    .container-fluid {
-      
-      /* Box-model */
-      width: 100%;
-      height: 500px;
-    
-      /* Positioning */
-      margin-top: 40px auto;
-    }
-
-  
-   
   /*
-    These rules take effect when the browser's width
-    is either 768px or less.
+    The width of the wrapper will be 1024px
+    at browser widths above 768px
   */
-  @media screen and (max-width: 768px) {
-    /* The body's bg color will be #333 */
-    body {
-      background-color: rgb(65,64,75);
-    }
+ 
+
+  .container-fluid {
     
-      /* The wrapper's width will be 600px */
-      .wrapper {
-        width: 100%;
-      }
+    /* Box-model */
+    width: 100%;
+    height: 500px;
+  
+    /* Positioning */
+    margin-top: 40px auto;
+  }
+
+
+ 
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+  /* The body's bg color will be #333 */
+  body {
+    background-color: rgb(65,64,75);
+  }
+  
+    /* The wrapper's width will be 600px */
+    .wrapper {
+      width: 100%;
     }
+  }
