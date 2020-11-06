@@ -77,10 +77,37 @@ p {
   font-weight: bold;
 }
 
+.container-fluid {
+  
+  /* Box-model */
+  width: 75%;
+  height: 400px;
+
+  /* Positioning */
+  margin-top: 40px auto;
+}
+
+.card-title {
+  opacity: 0.8;
+}
+
+.card-text {
+  opacity: 0.8;
+}
+
+.card-text-2 {
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
 #random-recipe-browser {
 background: rgb(218, 33, 33);
 border-color: black;
-width: 80%;
+width: 50%;
 margin-top: 10px;
 margin-bottom: 5px;
 text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
@@ -95,7 +122,7 @@ text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesm
 #random-recipe-GitHub {
 background: rgb(218, 33, 33);
 border-color: black;
-width: 80%;
+width: 50%;
 margin-top: 5px;
 margin-bottom: 10px;
 text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
@@ -107,10 +134,40 @@ color: #fff;
 text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
 }
 
+#listly-browser {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 50%;
+margin-top: 10px;
+margin-bottom: 5px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+  
+#listly-browser:active, #listly-browser:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+  
+#listly-GitHub {
+background: rgb(218, 33, 33);
+border-color: black;
+width: 50%;
+margin-top: 5px;
+margin-bottom: 10px;
+text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+  
+#listly-GitHub:active, #listly-GitHub:hover {
+background: rgb(0, 68, 255);
+color: #fff;
+text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
+}
+
 #responsive-portfolio-browser {
 background: rgb(218, 33, 33);
 border-color: black;
-width: 80%;
+width: 50%;
 margin-top: 10px;
 margin-bottom: 5px;
 text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
@@ -125,7 +182,7 @@ text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesm
 #responsive-portfolio-GitHub {
 background: rgb(218, 33, 33);
 border-color: black;
-width: 80%;
+width: 50%;
 margin-top: 5px;
 margin-bottom: 10px;
 text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
@@ -140,7 +197,7 @@ text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesm
 #day-planner-browser {
 background: rgb(218, 33, 33);
 border-color: black;
-width: 80%;
+width: 50%;
 margin-top: 10px;
 margin-bottom: 5px;
 text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
@@ -155,7 +212,7 @@ text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesm
 #day-planner-GitHub {
 background: rgb(218, 33, 33);
 border-color: black;
-width: 80%;
+width: 50%;
 margin-top: 5px;
 margin-bottom: 10px;
 text-shadow: 0 2px 5px rgb(0, 68, 255), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
@@ -167,38 +224,15 @@ color: #fff;
 text-shadow: 0 2px 5px rgb(218, 33, 33), 0 3px 6px whitesmoke, 0 4px 7px whitesmoke;
 }
 
-.card-img-top {
-height: 200px;
-}
-
-.card-text-2 {
-font-style: italic;
-}
-
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
 }
 
-
-
   /*
     The width of the wrapper will be 1024px
     at browser widths above 768px
   */
- 
-
-  .container-fluid {
-    
-    /* Box-model */
-    width: 100%;
-    height: 500px;
-  
-    /* Positioning */
-    margin-top: 40px auto;
-  }
-
-
  
 /*
   These rules take effect when the browser's width
