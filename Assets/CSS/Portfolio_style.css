@@ -6,11 +6,17 @@ nav {
   display: block;
 }
 
-/* LinkedIn Button */
+/* LinkedIn and GitHub buttons */
 html {
 margin: 40px auto;
 text-align: center;
 }
+
+.fa-github {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .btn-linkedin {
   background: #0E76A8;
   border-radius: 0;
